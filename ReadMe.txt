@@ -11,3 +11,5 @@ ng g c employee
 ng g class employee --type=model
 
 ng g s employee
+
+ng generate module app-routing --flat --module=app
