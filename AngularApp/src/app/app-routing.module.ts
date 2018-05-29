@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InventoryComponent } from './inventory/inventory.component';
+import { ItemComponent } from './item/item.component';
 import { EmployeeComponent } from './employee/employee.component';
 // import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
-  { path: 'inventory', component: InventoryComponent },
+  { path: 'items', component: ItemComponent },
   { path: 'employees', component: EmployeeComponent},
-  { path: '', redirectTo: '/inventory', pathMatch: 'full' }
+  { path: '', redirectTo: '/items', pathMatch: 'full' }
 ];
 
 @NgModule({

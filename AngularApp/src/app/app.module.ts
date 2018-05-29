@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { InventoryComponent } from './inventory/inventory.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { ItemComponent } from './item/item.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
-    InventoryComponent
+    InventoryComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,

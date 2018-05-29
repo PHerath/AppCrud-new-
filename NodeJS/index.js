@@ -4,6 +4,7 @@ const cors = require('cors');
 
 const { mongoose } = require('./db.js');
 var employeeController = require('./controllers/employeeController');
+var itemController = require('./controllers/itemController');
 
 var app = express();
 
@@ -15,3 +16,4 @@ app.listen(3000, () => {
 });
 
 app.use('/employees', employeeController);
+app.use('/items', itemController);
